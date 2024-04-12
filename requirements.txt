@@ -7,3 +7,4 @@ setuptools
 ydata-profiling
 openpyxl
 xlrd
+streamlit_pandas_profiling
