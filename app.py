@@ -4,7 +4,7 @@ from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 import sys
 import os
-st.set_page_config(page_title='DBA App', layout='wide')
+st.set_page_config(page_title='Data Profile App', layout='wide')
 
 # BACKLOG 1: host app in a AWS S3 to allow upload files that exceed 10 MB
 def get_filesize(file):
